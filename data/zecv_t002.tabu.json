@@ -1,0 +1,802 @@
+[
+  {
+    "mandt": "100",
+    "field": "ACTIVE",
+    "field_type": "B",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "ADDRESS_1",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "ADDRESS_2",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "BUYER_ACTION",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "BUYER_CONTACT_EMAIL",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "BUYER_CONTACT_FIRST_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "BUYER_CONTACT_LAST_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "BUYER_LAST_CONTACTED",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CAMPAIGN_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CAMPAIGN_TYPE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CITY",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CLIENT_SUPPLIER_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "COMMENT_DATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "COUNTRY",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CURRENT_STAGE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "CURRENT_STAGE_CODE",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "DEADLINE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "DECLINED",
+    "field_type": "B",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "DECLINED_DATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "DOCUMENTS_NUMBER",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "EMPLOYEE_RANGE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "ENV_SCORE",
+    "field_type": "N",
+    "sap_data_element": "ZECV_E_API_ENV_SCORE",
+    "persist": "X",
+    "sort_order": "0080"
+  },
+  {
+    "mandt": "100",
+    "field": "ENV_TREND",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "EVID",
+    "field_type": "S",
+    "sap_data_element": "ZECV_E_ECOVADIS_ID",
+    "persist": "X",
+    "sort_order": "0030"
+  },
+  {
+    "mandt": "100",
+    "field": "EV_SUPPLIER_NAME",
+    "field_type": "S",
+    "sap_data_element": "ZECV_E_API_SUP_NAME",
+    "persist": "X",
+    "sort_order": "0020"
+  },
+  {
+    "mandt": "100",
+    "field": "EXPIRED",
+    "field_type": "B",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_SCORE",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0100"
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_TREND",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "GLOBAL_SCORE",
+    "field_type": "N",
+    "sap_data_element": "ZECV_E_API_GLOBAL_SCORE",
+    "persist": "X",
+    "sort_order": "0060"
+  },
+  {
+    "mandt": "100",
+    "field": "GLOBAL_TREND",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "INITIAL_REQUESTED_SCOPE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "INTEGRATION_IDS",
+    "field_type": "A",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "ISIC_CATEGORY",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "LAB_SCORE",
+    "field_type": "N",
+    "sap_data_element": "ZECV_E_API_LAB_SCORE",
+    "persist": "X",
+    "sort_order": "0090"
+  },
+  {
+    "mandt": "100",
+    "field": "LAB_TREND",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "LAST_COMMENT",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "LAST_MODIFICATION",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "LAUNCH_DATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_ALL_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_CLIENT_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_CLIENT_FILTERS",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_CLOSED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_COMPLETED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_DOCUMENTS",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_DRAFT_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_FLAGS",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_INTEGRATION_IDS",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_IN_PROGRESS_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_NOT_VALIDATED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_NO_VALIDATION_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_OVERDUE_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_REJECTED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_REQUESTED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NB_VALIDATED_CA",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "NEXT_DEADLINE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "PARENT_COMPANY",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "PROGRESS_STATUS",
+    "field_type": "S",
+    "sap_data_element": "ZECV_E_API_PROGRESS_STATUS",
+    "persist": "X",
+    "sort_order": "0040"
+  },
+  {
+    "mandt": "100",
+    "field": "PROGRESS_STATUS_CODE",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "PUBLISHED_DATE",
+    "field_type": "S",
+    "sap_data_element": "ZECV_E_API_PUBLISHED_DATE",
+    "persist": "X",
+    "sort_order": "0070"
+  },
+  {
+    "mandt": "100",
+    "field": "REQUEST_OUTCOME",
+    "field_type": "S",
+    "sap_data_element": "ZECV_E_API_REQUEST_OUTCOME",
+    "persist": "X",
+    "sort_order": "0050"
+  },
+  {
+    "mandt": "100",
+    "field": "REQUEST_OUTCOME_CODE",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "RFP_CAMPAIGN_ICON",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "RISK_COUNTRY",
+    "field_type": "B",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SCOPE_CHANGE",
+    "field_type": "B",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SCORECARD_LINK",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SHARING_STATUS",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SHARING_STATUS_CODE",
+    "field_type": "N",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SIRET_NUMBER",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SIZE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SOURCE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SPECIFIC_COMMENT",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "STATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "STATUS_LAST_UPDATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SUPPLIER_CONTACT_EMAIL",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SUPPLIER_CONTACT_FIRST_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SUPPLIER_CONTACT_LAST_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "SUP_SCORE",
+    "field_type": "N",
+    "sap_data_element": "ZECV_E_API_SUP_SCORE",
+    "persist": "X",
+    "sort_order": "0110"
+  },
+  {
+    "mandt": "100",
+    "field": "SUP_TREND",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_COMPANY_COUNTRY",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_COMPANY_EVID",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_COMPANY_NAME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_CURRENT_STAGE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_CURRENT_STAGE_ID",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_ENV_SCORE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_FBP_SCORE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_GLOBAL_SCORE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_LAB_SCORE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_PROGRESS_STATUS",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_PROGRESS_STATUS_ID",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_PUBLISHED_DATE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_REQUEST_OUTCOME",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_REQUEST_OUTCOME_ID",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_SCORECARD_LINK",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_SHARING_STATUS",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_SHARING_STATUS_ID",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TARGET_SUP_SCORE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TAX_NUMBER",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "TURNOVER",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "VAT_NUMBER",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  },
+  {
+    "mandt": "100",
+    "field": "WEBSITE",
+    "field_type": "S",
+    "sap_data_element": "",
+    "persist": "",
+    "sort_order": "0000"
+  }
+]

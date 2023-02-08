@@ -1,0 +1,62 @@
+[
+  {
+    "mandt": "100",
+    "field": "ACTIVE",
+    "spras": "S",
+    "description": ""
+  },
+  {
+    "mandt": "100",
+    "field": "ENV_SCORE",
+    "spras": "S",
+    "description": "Puntuación medioambiental"
+  },
+  {
+    "mandt": "100",
+    "field": "EVID",
+    "spras": "S",
+    "description": "Ecovadis id"
+  },
+  {
+    "mandt": "100",
+    "field": "EV_SUPPLIER_NAME",
+    "spras": "S",
+    "description": "Nombre proveedor en Ecovadis"
+  },
+  {
+    "mandt": "100",
+    "field": "GLOBAL_SCORE",
+    "spras": "S",
+    "description": "Puntuación global"
+  },
+  {
+    "mandt": "100",
+    "field": "LAB_SCORE",
+    "spras": "S",
+    "description": "Puntuación trabajo y derechos humanos"
+  },
+  {
+    "mandt": "100",
+    "field": "PROGRESS_STATUS",
+    "spras": "S",
+    "description": "Estado"
+  },
+  {
+    "mandt": "100",
+    "field": "PUBLISHED_DATE",
+    "spras": "S",
+    "description": "Fecha de última puntuación"
+  },
+  {
+    "mandt": "100",
+    "field": "REQUEST_OUTCOME",
+    "spras": "S",
+    "description": "Resultado de la solicitud"
+  },
+  {
+    "mandt": "100",
+    "field": "SUP_SCORE",
+    "spras": "S",
+    "description": "Puntuación aprovisionamiento sostenible"
+  }
+]

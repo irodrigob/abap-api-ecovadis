@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ECV_CONNECTION</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Ecovadis - Conexión con Ecovadis</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONNECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Conecta con el servidor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DISCONNECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Desconexión</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GENERATE_TOKEN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Generación del token de autentificación</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONNECTION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve la conexión</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONNECTION_CONF</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Datos de la configuración de la conexión</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_CONFIGURATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de la configuración</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_CONNECTION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de la configuración</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONNECT</CMPNAME>
+     <SCONAME>RO_CONNECTION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Conexión</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_AUTO_CONNECTION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Conexión automática</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LANGU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Idioma</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_TYPE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tipo de conexión</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CONNECTION</CMPNAME>
+     <SCONAME>RO_CONNECTION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Conexión</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

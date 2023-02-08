@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_ECV_MASTERDATA_INTEGRATION</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Ecovadis - Masterdata integration</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_SAP_OBJECT_EXISTS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valida que el objeto de sap exista</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_COMPONENT_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea la tabla de componentes para los campos parametrizados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DYNAMIC_STRUCTURE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea estructura dinamica con los campos parametrizados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CREATE_DYNAMIC_TABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Crea tabla dinamica con los campos parametrizados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FILL_INTEGRATION_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Copia los datos de la api a la estructura dinamica</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FORMAT_API_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Aplica conversiones a los datos de la api</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_CONSTANT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera una constante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_FIELD_CUSTOMIZING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera parametrizacion de campos de la API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PERSIST_INTEGRATION_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Graba en SAP los datos parametrizados de la API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_INTEGRATION_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lee los datos de ecovadis almacenados en SAP</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VALIDATE_INTEGRATION_DATA</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valida los datos de ecovadi</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

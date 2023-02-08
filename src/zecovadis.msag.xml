@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZECOVADIS</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Ecovadis - Mensajes</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tipo de conexión no configurada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error en la conexión con Ecovadis</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error en el proceso de autentificación</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>El proceso de autentificación ha devuelto el siguiente error: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>El proceso de obtener datos ha devuelto el siguiente error: &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>El ecovadis_id es obligatorio</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>El integration_id &amp; no se ha encontrado en SAP</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No se ha podido asignar el ecovadis_id &amp; al integration_id &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>El ecovadis_id de SAP no coincide con la API.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error al crear las estructuras dinamicas. Revise la parametrización</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZECOVADIS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error al grabar los datos</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

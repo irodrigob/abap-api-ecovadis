@@ -25,6 +25,42 @@
   },
   {
     "mandt": "100",
+    "field": "FBP_SCORE",
+    "spras": "E",
+    "description": "Ethical Score"
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_SCORE",
+    "spras": "F",
+    "description": "Note éthique"
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_SCORE",
+    "spras": "S",
+    "description": "Puntuación Ética"
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_TREND",
+    "spras": "E",
+    "description": ""
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_TREND",
+    "spras": "F",
+    "description": ""
+  },
+  {
+    "mandt": "100",
+    "field": "FBP_TREND",
+    "spras": "S",
+    "description": ""
+  },
+  {
+    "mandt": "100",
     "field": "GLOBAL_SCORE",
     "spras": "S",
     "description": "Puntuación global"

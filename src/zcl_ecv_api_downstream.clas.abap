@@ -146,7 +146,21 @@ ENDCLASS.
 
 
 
-CLASS zcl_ecv_api_downstream IMPLEMENTATION.
+CLASS ZCL_ECV_API_DOWNSTREAM IMPLEMENTATION.
+
+
+  METHOD connect.
+    " La conexión consiste es instanciar la clase encarga de crear la conexion HTTP con el servidor y
+    " obtener el token de autentificación
+    mo_connection = NEW #( iv_langu = mv_langu
+                           iv_type = mv_type
+                           iv_auto_connection = abap_true ).
+
+    mo_http_client = mo_connection->get_connection(  ).
+    mo_connection->generate_token(  ).
+  ENDMETHOD.
+
+
   METHOD constructor.
 
     super->constructor( ).
@@ -161,56 +175,25 @@ CLASS zcl_ecv_api_downstream IMPLEMENTATION.
   ENDMETHOD.
 
 
-  METHOD connect.
-    " La conexión consiste es instanciar la clase encarga de crear la conexion HTTP con el servidor y
-    " obtener el token de autentificación
-    mo_connection = NEW #( iv_langu = mv_langu
-                           iv_type = mv_type
-                           iv_auto_connection = abap_true ).
+  METHOD convert_response_data_to_table.
 
-    mo_http_client = mo_connection->get_connection(  ).
-    mo_connection->generate_token(  ).
-  ENDMETHOD.
+    LOOP AT it_response_data ASSIGNING FIELD-SYMBOL(<ls_response_data>).
 
-  METHOD get_data_from_integrations_id.
+      "Por cada integration ID se genera un registro
+      LOOP AT <ls_response_data>-integration_ids ASSIGNING FIELD-SYMBOL(<fs_int_id>).
 
-    CLEAR: rt_data.
+        APPEND INITIAL LINE TO rt_reponse_table_data ASSIGNING FIELD-SYMBOL(<ls_reponse_table_data>).
+        <ls_reponse_table_data> = CORRESPONDING #( <ls_response_data>  EXCEPT integration_id ).
+*        READ TABLE <ls_response_data>-integration_ids INTO DATA(lv_integration_id) INDEX 1.
+*        <ls_reponse_table_data>-integration_id = lv_integration_id.
+        <ls_reponse_table_data>-integration_id = <fs_int_id>.
+*        CLEAR: lv_integration_id.
+      ENDLOOP.
 
-    IF it_integrations_id IS INITIAL.
-      EXIT.
-    ENDIF.
-
-    "Se conecta de nuevo. Por algun motivo al llamar a dos servicios seguidos sin reiniciar la conexion, no devuelve datos
-    connect( ).
-
-    set_header_value( iv_name  = 'Authorization' iv_value = mo_connection->mv_token_authentification ).
-    set_request_method( 'GET' ).
-    set_content_type( cs_content_type-json ).
-
-    DATA(lv_url) = |/{ mo_connection->get_connection_conf(  )-version }/{ zcl_ecv_data=>cs_connection-methods-get_data }?integration_id=|.
-
-    lv_url = |{ lv_url }{ REDUCE string( INIT values TYPE string
-                              FOR <ids> IN it_integrations_id
-                              NEXT values = values && COND #( WHEN values IS NOT INITIAL
-                                                        THEN |,"{ <ids> }"|
-                                                        ELSE |"{ <ids> }"| ) ) }|.
-
-    set_request_uri( lv_url ).
-
-    TRY.
-
-        send(  ).
-        receive( IMPORTING ev_data = rt_data  ).
-
-      CATCH zcx_ca_http_services INTO DATA(lo_excep).
-        RAISE EXCEPTION TYPE zcx_ecv
-          EXPORTING
-            textid   = zcx_ecv=>error_token_authentification
-            mv_msgv1 = lo_excep->mv_status_code
-            mv_msgv2 = lo_excep->mv_status_text.
-    ENDTRY.
+    ENDLOOP.
 
   ENDMETHOD.
+
 
   METHOD get_data_from_ecovadis_ids.
 
@@ -252,17 +235,44 @@ CLASS zcl_ecv_api_downstream IMPLEMENTATION.
 
   ENDMETHOD.
 
-  METHOD convert_response_data_to_table.
 
-    LOOP AT it_response_data ASSIGNING FIELD-SYMBOL(<ls_response_data>).
-      APPEND INITIAL LINE TO rt_reponse_table_data ASSIGNING FIELD-SYMBOL(<ls_reponse_table_data>).
-      <ls_reponse_table_data> = CORRESPONDING #( <ls_response_data>  EXCEPT integration_id ).
-      READ TABLE <ls_response_data>-integration_ids INTO DATA(lv_integration_id) INDEX 1.
-      <ls_reponse_table_data>-integration_id = lv_integration_id.
-      CLEAR: lv_integration_id.
+  METHOD get_data_from_integrations_id.
 
-    ENDLOOP.
+    CLEAR: rt_data.
+
+    IF it_integrations_id IS INITIAL.
+      EXIT.
+    ENDIF.
+
+    "Se conecta de nuevo. Por algun motivo al llamar a dos servicios seguidos sin reiniciar la conexion, no devuelve datos
+    connect( ).
+
+    set_header_value( iv_name  = 'Authorization' iv_value = mo_connection->mv_token_authentification ).
+    set_request_method( 'GET' ).
+    set_content_type( cs_content_type-json ).
+
+    DATA(lv_url) = |/{ mo_connection->get_connection_conf(  )-version }/{ zcl_ecv_data=>cs_connection-methods-get_data }?integration_id=|.
+
+    lv_url = |{ lv_url }{ REDUCE string( INIT values TYPE string
+                              FOR <ids> IN it_integrations_id
+                              NEXT values = values && COND #( WHEN values IS NOT INITIAL
+                                                        THEN |,"{ <ids> }"|
+                                                        ELSE |"{ <ids> }"| ) ) }|.
+
+    set_request_uri( lv_url ).
+
+    TRY.
+
+        send(  ).
+        receive( IMPORTING ev_data = rt_data  ).
+
+      CATCH zcx_ca_http_services INTO DATA(lo_excep).
+        RAISE EXCEPTION TYPE zcx_ecv
+          EXPORTING
+            textid   = zcx_ecv=>error_token_authentification
+            mv_msgv1 = lo_excep->mv_status_code
+            mv_msgv2 = lo_excep->mv_status_text.
+    ENDTRY.
 
   ENDMETHOD.
-
 ENDCLASS.

@@ -211,8 +211,8 @@
     "mandt": "100",
     "field": "FBP_SCORE",
     "field_type": "N",
-    "sap_data_element": "",
-    "persist": "",
+    "sap_data_element": "ZECV_E_API_FBP_SCORE",
+    "persist": "X",
     "sort_order": "0100"
   },
   {
